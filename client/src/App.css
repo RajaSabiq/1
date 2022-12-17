@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login-wraper>.hidden-xs>img {
+  height: 1000px;
+}
+
+/* .reset-form {
+  left: 30% !important;
+} */
+
+.jumbotron {
+  background: #fff;
+  margin: 50px 0;
+}
+
+.video__detail__img {
+  height: 435px;
+}
+
+.video__detail__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 768px) {
+  .video__detail__img {
+    height: 215px;
+  }
+
+  .h-video .pl-0 {
+    margin-top: 8px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .h-video .pl-0 {
+    padding-left: 0 !important;
+  }
+}
+
+@media screen and (max-width: 1365px) {
+  .hide-bg {
+    display: none;
+  }
+
+  .reset-form {
+    left: 0%;
+  }
+}
+
+.social-btn-sp #social-links {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.social-btn-sp #social-links ul li {
+  display: inline-block;
+}
+
+.social-btn-sp #social-links ul li a {
+  padding: 7.5px;
+  margin: 1px;
+  font-size: 20px;
+}
+
+table #social-links {
+  display: inline-table;
+}
+
+table #social-links ul li {
+  display: inline;
+}
+
+table #social-links ul li a {
+  padding: 2.5px;
+  ;
+  margin: .5px;
+  font-size: 7.5px;
+}
+
+/* Custon autoplay swich checkbox */
+.custom-control.teleport-switch {
+  --color: #4cd964;
+  padding-left: 0;
+}
+
+.custom-control.teleport-switch .teleport-switch-control-input {
+  display: none;
+}
+
+.custom-control.teleport-switch .teleport-switch-control-input:checked~.teleport-switch-control-indicator {
+  border-color: var(--ls_color-primary);
+}
+
+.custom-control.teleport-switch .teleport-switch-control-input:checked~.teleport-switch-control-indicator::after {
+  left: -14px;
+}
+
+.custom-control.teleport-switch .teleport-switch-control-input:checked~.teleport-switch-control-indicator::before {
+  right: 2px;
+  background-color: var(--ls_color-primary);
+}
+
+.custom-control.teleport-switch .teleport-switch-control-input:disabled~.teleport-switch-control-indicator {
+  opacity: .4;
+}
+
+.custom-control.teleport-switch .teleport-switch-control-indicator {
+  display: inline-block;
+  position: relative;
+  margin: 0 10px;
+  top: 4px;
+  width: 32px;
+  height: 20px;
+  background: #fff;
+  border-radius: 16px;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+  border: 2px solid #ccc;
+  overflow: hidden;
+}
+
+.custom-control.teleport-switch .teleport-switch-control-indicator::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+  top: 2px;
+  left: 2px;
+  background: #ccc;
+}
+
+.custom-control.teleport-switch .teleport-switch-control-indicator::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+  top: 2px;
+  right: -14px;
+  background: #ccc;
+}
+
+.comments-list {
+  margin-bottom: 35px;
+}
+
+.comments-list .d-flex {
+  display: flex;
+  align-items: flex-start;
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+
+.comments-list .comment__user__img {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.comments-list .comment__user__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.comments-list .comment__username {
+  font-size: 13.5px;
+  font-weight: 600;
+}
+
+.comments-list .comment__username span {
+  font-size: 12px;
+  margin-left: 5px;
+  color: #0000007a;
+  font-weight: 400;
+}
+
+body.dark .comments-list {
+  color: #a9a9a9;
+}
+
+body.dark .comments-list .comment__username span {
+  color: #7e7e7e;
+}

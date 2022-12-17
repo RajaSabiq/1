@@ -1,0 +1,16 @@
+.video__list__cont .video__list__header {
+    text-align: end;
+    margin-bottom: 1rem;
+}
+
+.video__list__cont .video__list__header a {
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: rgba(20, 231, 136, 0.2);
+    color: #14e788;
+    padding: 2px 16px;
+}
+
+.video__list__cont .video__list__header i {
+    margin-right: 4px;
+}

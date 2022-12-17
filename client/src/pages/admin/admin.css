@@ -1,0 +1,51 @@
+.admin {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    color: #FFFFFF;
+    overflow-x: hidden;
+}
+
+.admin__dashboardPanel {
+    width: calc(100% - 300px);
+    height: 100%;
+}
+
+.admin__dashboard {
+    width: 100%;
+    height: calc(100% - 70px);
+    background-color: #141414;
+    padding: 35px 30px;
+    overflow-y: scroll;
+}
+
+.admin__dashboard::-webkit-scrollbar {
+    display: none;
+}
+
+.admin__dashboard .dashboard__cont {
+    border-radius: 5px;
+    background-color: #191919;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.admin__dashboard .card__header {
+    padding: 20px;
+    border-bottom: 1px solid rgb(20 20 20);
+}
+
+.card__title {
+    font-size: 1.4em;
+    margin: 0;
+}
+
+.card__body {
+    padding: 15px;
+}
+
+@media screen and (max-width:992px) {
+    .admin__dashboardPanel {
+        width: 100%;
+    }
+}

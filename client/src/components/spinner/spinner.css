@@ -1,0 +1,16 @@
+body.dark .spinner {
+    background: #343434 !important;
+}
+
+.spinner {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

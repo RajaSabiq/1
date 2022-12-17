@@ -1,0 +1,40 @@
+.my__profile .dashboard__cont {
+    background: transparent;
+}
+
+.user__profile__cont {
+    display: flex;
+    justify-content: center;
+}
+
+.user__profile__wrapper {
+    /* max-width: 540px; */
+    width: 540px;
+    background-color: #191919;
+    padding: 1.5rem 2rem;
+    border-radius: 5px;
+}
+
+.profile__detail__wrapper {
+    margin: 1.25rem 0 1rem 0;
+}
+
+.profile__detail__wrapper p {
+    margin-bottom: 0;
+}
+
+.profile__label {
+    font-weight: 600;
+}
+
+.profile__edit__btn {
+    text-align: center;
+}
+
+.profile__edit__btn a {
+    background: #AD00EA;
+    color: white;
+    padding: 2px 1rem;
+    border-radius: 5px;
+    font-size: 14px;
+}

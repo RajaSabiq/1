@@ -1,0 +1,81 @@
+.admin__sidebar {
+    height: 100%;
+    width: 300px;
+    max-width: 300px;
+    min-width: 300px;
+    padding: 15px 20px;
+    background-color: #191919;
+    white-space: nowrap;
+    overflow-x: hidden;
+    transition: 0.4s all ease, 0.4s left ease;
+    border-right: 1px solid #444444;
+}
+
+.admin__sidebar .sidebar__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.admin__sidebar .sidebar__header .sidebar__logo img {
+    height: 45px;
+}
+
+.admin__sidebar .sidebar__header .sidebar__close {
+    display: none;
+}
+
+.admin__sidebar .sidebar__header .sidebar__close i {
+    font-size: 26px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+.admin__sidebar .sidebar__links {
+    margin-top: 20px;
+}
+
+.admin__sidebar .sidebar__links li {
+    list-style: none;
+    padding: 15px 0;
+}
+
+.admin__sidebar .sidebar__links li a {
+    display: flex;
+    align-items: center;
+    color: #D1D0CF;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+.admin__sidebar .sidebar__links li a i {
+    font-size: 20px;
+    margin-right: 10px;
+    width: 20px;
+}
+
+.admin__sidebar .sidebar__links li a span {
+    margin-top: 3px;
+}
+
+.admin__sidebar .sidebar__links li a:hover {
+    color: #AD00EA;
+
+}
+
+@media screen and (max-width: 992px) {
+    .admin__sidebar .sidebar__header .sidebar__close {
+        display: block;
+    }
+
+    .admin__sidebar {
+        position: fixed;
+        z-index: 100;
+        top: 0;
+        left: -300px;
+    }
+
+    .admin__sidebar__left {
+        left: 0px !important;
+    }
+}

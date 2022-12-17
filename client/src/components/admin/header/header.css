@@ -1,0 +1,121 @@
+.admin__header {
+    max-height: 70px;
+    height: 70px;
+    transition: all 0.45s ease;
+    background-color: #191919;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.admin__header .admin__hamburger i {
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+.admin__profile {
+    margin-right: 1rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.admin__profile img {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.profile__dropdown {
+    position: absolute;
+    top: 55;
+    right: 0;
+    background-color: #191919;
+    width: 300px;
+    z-index: 10;
+    border: 1px solid #8b8b8b;
+    border-radius: 5px;
+    color: #FFFFFF;
+    overflow: hidden;
+}
+
+.profile__dropdown .dropdown__header {
+    background: #AD00EA;
+    color: #FFFFFF;
+    padding: 2rem 2rem 1.5rem 2rem;
+}
+
+.profile__dropdown .dropdown__header h5 {
+    margin: 0;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.profile__dropdown .dropdown__header span {
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+.profile__dropdown .dropdown__body a {
+    font-size: inherit;
+    color: #FFFFFF;
+    padding: 15px;
+    line-height: normal;
+    color: inherit;
+    border-bottom: 1px solid rgb(20 20 20);
+    display: inline-block;
+    width: 100%;
+    padding: 1rem 2rem;
+    transition: 0.3s background-color ease;
+}
+
+.profile__dropdown .dropdown__body a:hover {
+    background-color: rgba(226, 14, 2, 0.2);
+}
+
+.profile__dropdown .dropdown__body a>div {
+    display: flex;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+.profile__dropdown .dropdown__body a>div .profile__icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    background-color: rgba(226, 14, 2, 0.2);
+    color: #FFFFFF;
+    color: #AD00EA;
+    border-radius: 5px;
+    margin-right: 1.5rem;
+}
+
+.signout-btn {
+    padding: 1rem 2rem;
+    width: 100%;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.signout-btn a {
+    background: #AD00EA;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+.signout-btn a:hover {
+    color: #FFFFFF !important;
+}
+
+@media screen and (max-width: 992px) {
+    .admin__header .admin__hamburger i {
+        display: block;
+    }
+
+}

@@ -1,0 +1,42 @@
+.edit__profile__form {
+    margin-top: 1rem;
+}
+
+.edit__profile__form .edit__input__wrapper label {
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+.edit__profile__form .edit__input__wrapper input {
+    background-color: #141414;
+    border: 1px solid transparent;
+    height: 46px;
+    position: relative;
+    color: #D1D0CF;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 1.5rem;
+}
+
+.edit__input__wrapper button {
+    border-radius: 5px;
+    background: transparent;
+    border: 1px solid #AD00EA;
+    padding: 8px 10px 6px 10px;
+    transition: 0.3s all ease;
+}
+
+.edit__input__wrapper button:hover {
+    background: rgba(226, 14, 2, 0.2);
+}
+
+@media screen and (max-width: 768px) {
+    .edit__profile_cont {
+        flex-direction: column;
+    }
+
+    .edit__profile_cont .user__profile__wrapper {
+        width: 100%;
+    }
+}
